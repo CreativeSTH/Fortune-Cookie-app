@@ -1,0 +1,31 @@
+:root {
+  /* colors */
+  --primary-color: #97df5f;
+  --secundary-color: #6265b4;
+  --terciary-color: white;
+
+  /* fonts */
+  --font-s-titles: 40px;
+  --font-s-subtitles: 30px;
+
+  /* padings */
+  --padding-sections: 0px 40px;
+
+  font-family: 16px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
