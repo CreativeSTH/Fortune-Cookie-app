@@ -1,12 +1,14 @@
-
+import Hero from "./Hero";
+import LuckyCookie from "./LuckyCookie";
 
 function App() {
 
   return (
     <>
-      <h1>Hola Mundo</h1>
+      <Hero />
+      <LuckyCookie />
     </>
-  )
-}
+  );
+};
 
 export default App
