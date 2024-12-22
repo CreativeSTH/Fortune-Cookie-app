@@ -1,7 +1,7 @@
 :root {
   /* colors */
-  --primary-color: #97df5f;
-  --secundary-color: #6265b4;
+  --primary-color: #190e2d;
+  --secundary-color: #2b44b69f;
   --terciary-color: white;
 
   /* fonts */
@@ -9,7 +9,7 @@
   --font-s-subtitles: 30px;
 
   /* padings */
-  --padding-sections: 0px 40px;
+  --padding-sections:30px 50px;
 
   font-family: 16px;
   box-sizing: border-box;
@@ -21,11 +21,47 @@
   -moz-osx-font-smoothing: grayscale;
 }
 *, *::before, *::after {
-  box-sizing: inherit;
-}
-
-html {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  box-sizing: inherit;
+}
+@keyframes blurInTop {
+  to{
+      transform:translateY(200px) ;
+  }
+}
+@keyframes cookieOne {
+  to{
+      transform:translateY(-150px) ;
+  }
+}
+@keyframes cookieTwo {
+  to{
+      transform:translateY(-120px) scale(1.2);
+  }
+}
+@keyframes cookieThree {
+  to{
+      transform:translateY(120px) scale(1.2);
+      filter: blur(5px);
+  }
+}
+@keyframes animate-gradient{
+  0%{
+      background-position: 0%;
+  }
+  100%{
+      background-position: 200%;
+  }
+  
+}
+
+@keyframes bounce {
+  70% { transform:translate(-50%, 0%); }
+  80% { transform:translate(-50%, -15%); }
+  90% { transform:translate(-50%, 0%); }
+  95% { transform:translate(-50%, -7%); }
+  97% { transform:translate(-50%, 0%); }
+  99% { transform:translate(-50%,-3%); }
+  100% { transform:translate(-50%, 0); }
 }
