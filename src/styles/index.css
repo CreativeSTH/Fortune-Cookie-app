@@ -1,9 +1,24 @@
 :root {
-  /* colors */
+  /* colors and backgrounds */
   --primary-color: #190e2d;
   --secundary-color: #2b44b69f;
   --terciary-color: white;
+  --quaternary-color: #fcff48;
+  --quinary-color: #8f68ff;
+  --senary-color: #fc72ff;
+  --optional-color: #170c2c;
 
+  --mask-gradient:radial-gradient(circle, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0) 50%);
+  --mask-gradient-two:radial-gradient(circle, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0) 30%);
+  --patterns-dot: radial-gradient(blue 10%, transparent 5%) 0 0, 
+                  radial-gradient(white 5%, transparent 13%) 8px 8px, 
+                  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px, 
+                  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  
+  --glass-gradient: linear-gradient(135deg, rgba(250, 250, 250, 0.1), rgba(250, 250, 250, 0));
+  --glass-border:rgba(255, 255, 255, 0.13);
+  --gradient-text: linear-gradient(to right, #fc72ff, #8f68ff, #fcff48, #8f68ff, #fc72ff);            
+  
   /* fonts */
   --font-s-titles: 40px;
   --font-s-subtitles: 30px;

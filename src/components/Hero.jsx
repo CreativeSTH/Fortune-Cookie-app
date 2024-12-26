@@ -11,8 +11,7 @@ const Hero = () => {
                     <img className='hero__card__img' src={monster}  alt="The cookie monster"/>
                     <h1 className='hero__card__title'>GALLETAS</h1>
                     <div className='hero__card__title--effect'>GALLETAS</div>
-                    <h2 className='hero__card__subtitle'>DE LA FORTUNA</h2>
-                    <div className='hero__card__subtitle--effect'>DE LA FORTUNA</div>
+                    <h2 className='hero__card__subtitle'>de la fortuna</h2>
                 </article>
                 <article className='hero__imgs'>
                     <img className='imgs__galleta__blur--a' src={cookie} alt="a Lucky Cookie" />

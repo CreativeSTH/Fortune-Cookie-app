@@ -1,9 +1,65 @@
-.lucky-cookie{
+.container__luckyCookie{
     height: 100vh;
     width: 100%;
-    background-color: #170c2c;
+    position: relative;  
+    background-color:var(--optional-color);
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 3;
+    padding: var(--padding-sections);
+
+    &::after{
+        content: '';
+        position: absolute;
+        top: 150px;
+        left: -10%;
+        width: 300px;
+        height: 300px;
+        background-color: var(--quinary-color);
+        border-radius: 50%;
+        -webkit-filter: blur(110px);
+        filter: blur(160px);
+        pointer-events: none;
+    }
+
+    &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        -webkit-mask-image: var(--mask-gradient-two);
+        mask-image: var(--mask-gradient-two);
+        background: var(--patterns-dot);
+        height: 100dvh;
+        width: 100%;
+        background-size: 10px 10px;
+    }
+}
+.luckyCookie__card{
+    height: clamp(500px, 30vw, 800px);
+    width: 800px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--glass-border);
+    background-image: var(--glass-gradient);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+
+    &::before{
+        content: '';
+        width: 200px;
+        height: 80px;
+        bottom: -80px;
+        right: 0;
+        position: absolute;
+        background-color: #fc72ff;
+        filter: blur(100px);
+        z-index: 1;
+    }
 }
