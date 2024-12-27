@@ -135,6 +135,11 @@
         animation-delay: 0s;
         z-index: 4;
     }
+    @media (max-width: 375px){
+        .imgs__galleta__blur--a{
+            display: none;
+        }
+    }
 
     .imgs__galleta__blur--b{
         display: none;
