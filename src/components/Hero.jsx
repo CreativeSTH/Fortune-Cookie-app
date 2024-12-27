@@ -2,11 +2,13 @@ import '../styles/Hero.css';
 import cookie from '/img/cookie.webp';
 import monster from '/img/monster.webp';
 import iconScroll from '/img/icon.svg';
+import logo from '/logo.svg';
 
 const Hero = () => {
     return (
         <> 
             <section className='container'>
+                <img className='logo' src={logo} alt="mi marca personal" />
                 <article className='hero__card__glass'>
                     <img className='hero__card__img' src={monster}  alt="The cookie monster"/>
                     <h1 className='hero__card__title'>GALLETAS</h1>

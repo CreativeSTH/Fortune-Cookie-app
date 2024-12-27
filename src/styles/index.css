@@ -9,7 +9,7 @@
   --optional-color: #170c2c;
 
   --mask-gradient:radial-gradient(circle, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0) 50%);
-  --mask-gradient-two:radial-gradient(circle, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0) 30%);
+  --mask-gradient-two:radial-gradient(circle, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0) 35%);
   --patterns-dot: radial-gradient(blue 10%, transparent 5%) 0 0, 
                   radial-gradient(white 5%, transparent 13%) 8px 8px, 
                   radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px, 
@@ -80,3 +80,4 @@
   99% { transform:translate(-50%,-3%); }
   100% { transform:translate(-50%, 0); }
 }
+

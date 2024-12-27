@@ -50,6 +50,8 @@
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
     border-radius: 10px;
+    z-index: 1;
+    padding: 10px 25px;
 
     &::before{
         content: '';
@@ -60,6 +62,50 @@
         position: absolute;
         background-color: #fc72ff;
         filter: blur(100px);
-        z-index: 1;
+        z-index: -1;
+    }
+}
+.luckyCookie__card__title{
+    font-family: "Oswald", serif;
+    font-size: clamp(75px, 15vw, 150px);
+    font-weight: 900;
+    font-style: normal;
+    color: transparent;
+    background: var(--gradient-text);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 2.5s linear infinite;
+}
+.luckyCookie__card__subtitle{
+    font-family: "Covered By Your Grace", serif;
+    font-size: clamp(50px, 15vw, 100px);
+    color: white;
+    margin-bottom: -90px;
+    z-index: 2;
+    line-height:clamp(130px, 15vw, 0px);
+}
+.luckyCookie__card__phrase{
+    color: white;
+    font-family: "Oswald", serif;
+    text-align: center;
+    font-size: clamp(14px, 15vw, 22px);
+}
+.luckyCookie__card__button{
+    margin-top: 40px;
+    padding: 10px 30px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #8d68ff54;
+    backdrop-filter: blur(10px);
+    transition: background 0.3s ease;
+
+    &:hover{
+        background: rgba(255, 255, 255, 0.4); /* Cambia el fondo al pasar el mouse */
+
     }
 }
