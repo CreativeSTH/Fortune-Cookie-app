@@ -14,7 +14,7 @@ Desarrollada con React, la app cuenta con una interfaz intuitiva y atractiva, pe
 
 ¡Prueba tu suerte y descubre qué te depara el destino!
     <br />
-    <a href="https://best-pokedex.netlify.app/"><strong>Demo »</strong></a>
+    <a href="https://fortune-cookie-sth.netlify.app/"><strong>Demo »</strong></a>
     <br />
   </p>
   <img src="public/img/readme-img-cookie.png" alt="Logo" width="100%">
