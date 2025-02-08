@@ -17,7 +17,7 @@ Desarrollada con React, la app cuenta con una interfaz intuitiva y atractiva, pe
     <a href="https://best-pokedex.netlify.app/"><strong>Demo »</strong></a>
     <br />
   </p>
-  <img src="public/img/readme-img.png" alt="Logo" width="100%">
+  <img src="public/img/readme-cookie-img.png" alt="Logo" width="100%">
 </div>
 
 # Versión App
